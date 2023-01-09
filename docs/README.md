@@ -1,4 +1,4 @@
-Dashbaords are a useful tool to present data for reporting and exploration.
+A Dashbaords is a useful tool to present data for reporting and exploration.
 The added value is that a dashboard can be interactive.  Python has several
 frameworks to easily create dashboards, and you will learn about their
 relative strengths and weaknesses based on some real-world use cases.
@@ -25,7 +25,7 @@ Total duration: 2 hours.
   |---------------------------------------------|----------|
   | introduction and motivation                 |  5 min.  |
   | panel                                       | 40 min.  |
-  | depploying on Github                        | 10 min.  |
+  | deploying on Github                         | 10 min.  |
   | streamlit                                   | 40 min.  |
   | deploying on streamlit.io                   | 10 min.  }
   | Amazon EC2                                  | 10 min.  |
