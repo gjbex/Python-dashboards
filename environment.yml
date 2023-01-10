@@ -1,0 +1,21 @@
+name: python_dashboards
+channels:
+  - defaults
+dependencies:
+  - panel
+  - streamlit
+  - dash
+  - matplotlib
+  - altair
+  - pandas
+  - jupyterlab
+  - ipywidgets
+  - ca-certificates
+  - certifi
+  - openssl
+  - altair_saver
+  - numpy
+  - vega_datasets
+  - scipy
+  - qgrid
+prefix: /home/gjb/miniconda3/envs/python_dashboards
