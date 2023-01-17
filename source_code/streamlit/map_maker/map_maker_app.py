@@ -14,7 +14,7 @@ if __name__ == '__main__':
     '''# Map Maker
     '''
 
-    file_column1, file_column2 = st.beta_columns(2)
+    file_column1, file_column2 = st.columns(2)
     with file_column1:
         data_file = st.file_uploader('Data file')
     with file_column2:
@@ -30,7 +30,7 @@ if __name__ == '__main__':
         data = read_file(file_name, bytes_array, encoding=encoding, delimiter=delimiter)
         validate_data(data) 
 
-        data_column1, data_column2, data_column3 = st.beta_columns(3)
+        data_column1, data_column2, data_column3 = st.columns(3)
         with data_column1:
             column_name = st.selectbox('Data column',
                                        [column for column in data.columns
