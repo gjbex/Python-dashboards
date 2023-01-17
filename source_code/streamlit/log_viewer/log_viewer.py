@@ -88,10 +88,12 @@ if __name__ == '__main__':
     end = f'{end_date.strftime("%Y-%m-%d")} {end_time.strftime("%H:%M:%S")}'
     selection_df = selection_df.query(f'"{begin}" <= start_time <= "{end}"')
     
+    # if plots should be shown, do so
     if show_plots:
         # define columns in main page for plots
         left_col, right_col = st.columns(2)
 
+        # bar plot that displays the number of jobs per day
         with left_col:
             st.markdown('**nr. of jobs per day**')
             figure, axes = plt.subplots()
@@ -101,6 +103,7 @@ if __name__ == '__main__':
                                  rotation=45, ha='right')
             st.pyplot(figure)
 
+        # bar plot that displays the number of jobs per user
         with right_col:
             st.markdown('**nr. of jobs per user**')
             figure, axes = plt.subplots()
