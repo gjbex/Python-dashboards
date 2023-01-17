@@ -129,6 +129,7 @@ https://repo.anaconda.com/pkgs/main/linux-64/debugpy-1.5.1-py310h295c915_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/decorator-5.1.1-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/defusedxml-0.7.1-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/entrypoints-0.4-py310h06a4308_0.conda
+https://repo.anaconda.com/pkgs/main/linux-64/et_xmlfile-1.1.0-py310h06a4308_0.conda
 https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.1.0-pyhd8ed1ab_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/executing-0.8.3-pyhd3eb1b0_0.conda
 https://repo.anaconda.com/pkgs/main/noarch/flit-core-3.6.0-pyhd3eb1b0_0.conda
@@ -206,6 +207,7 @@ https://repo.anaconda.com/pkgs/main/linux-64/jupyter_core-5.1.1-py310h06a4308_0.
 https://repo.anaconda.com/pkgs/main/noarch/jupyterlab_pygments-0.1.2-py_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/matplotlib-inline-0.1.6-py310h06a4308_0.conda
 https://repo.anaconda.com/pkgs/main/linux-64/mkl-service-2.4.0-py310h7f8727e_0.conda
+https://repo.anaconda.com/pkgs/main/linux-64/openpyxl-3.0.10-py310h5eee18b_0.conda
 https://conda.anaconda.org/conda-forge/noarch/outcome-1.2.0-pyhd8ed1ab_0.tar.bz2
 https://repo.anaconda.com/pkgs/main/noarch/pexpect-4.8.0-pyhd3eb1b0_3.conda
 https://repo.anaconda.com/pkgs/main/linux-64/plotly-5.9.0-py310h06a4308_0.conda
