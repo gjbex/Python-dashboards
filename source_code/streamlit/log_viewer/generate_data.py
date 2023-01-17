@@ -19,7 +19,7 @@ class JobInfo:
 
     @staticmethod
     def attributes():
-        return ['id', 'start_time', 'user', ',walltime', 'exit_status']
+        return ['id', 'start_time', 'user', 'walltime', 'exit_status']
 
     def __repr__(self):
         return f'{self.id},{self.start_time.strftime("%Y-%m-%d %H:%M:%S")},{self.user},{self.walltime},{self.exit_status}'
