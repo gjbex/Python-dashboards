@@ -1,6 +1,7 @@
 name: python_dashboards
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - panel
   - streamlit
@@ -17,5 +18,5 @@ dependencies:
   - numpy
   - vega_datasets
   - scipy
-  - qgrid
+  - openpyxl
 prefix: /home/gjb/miniconda3/envs/python_dashboards

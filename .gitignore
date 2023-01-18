@@ -131,6 +131,7 @@ dmypy.json
 # editor backup file
 *~
 *.bak
+*.swp
 
 # direnv configuration file
 .envrc
