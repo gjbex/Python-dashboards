@@ -8,3 +8,4 @@ Example dashboard created using various frameworks.
 1. `dash`: illustrations of the dash framework.
 1. `panel`: illustrations of the panel framework.
 1. `streamlit`: illustrations of the streamlit framework.
+1. `gradio`: illustrations of the gradio framework.
