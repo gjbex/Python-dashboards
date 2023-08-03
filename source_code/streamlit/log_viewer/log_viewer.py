@@ -20,8 +20,7 @@ def read_data(file_name):
     pandas.Dataframe
         dataframe that represents the data
     '''
-    df = pd.read_csv(file_name, parse_dates=['start_time'])
-    return df
+    return pd.read_csv(file_name, parse_dates=['start_time'])
 
 if __name__ == '__main__':
     # parse command line arguments
