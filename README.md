@@ -12,3 +12,5 @@ Repository that contains material for training sessions on creating dashboards u
 1. `CONTRIBUTING.md`: how to contribute to this repository.
 1. `LICENSE`: license information of the material in this repository.
 1. `docs`: website for this training.
+1. [Code of conduct](CODE_OF_CONDUCT.md): when participating in this training
+   you accept to abide by the code of conduct.
