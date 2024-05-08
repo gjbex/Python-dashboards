@@ -18,12 +18,12 @@ dist_key = st.selectbox('Which Distribution do you want to plot?',keys)
 
 # Logic of our program
 if dist_key == 'Normal':
-    '''
+    r'''
     Select the mean value $\mu$ and the standard deviation $\sigma$ using the
     sliders.
     '''
-    mu = st.slider('mu', min_value=-2.0, max_value=2.0, value=0.0, step=0.25)
-    sigma = st.slider('sigma', min_value=0.0, max_value=5.0, value=1.0, step=0.25)
+    mu = st.slider(r'$\mu$', min_value=-2.0, max_value=2.0, value=0.0, step=0.25)
+    sigma = st.slider(r'$\sigma$', min_value=0.0, max_value=5.0, value=1.0, step=0.25)
     nums = np.random.normal(loc=mu, scale=sigma, size=1000)
 elif dist_key == 'Uniform':
     nums = np.random.uniform(0.0, 2.0, size=1000)

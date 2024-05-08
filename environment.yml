@@ -1,6 +1,5 @@
 name: python_dashboards
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - panel
@@ -19,4 +18,5 @@ dependencies:
   - vega_datasets
   - scipy
   - openpyxl
-prefix: /home/gjb/miniconda3/envs/python_dashboards
+  - gradio
+prefix: /home/gjb/mambaforge/envs/python_dashboards

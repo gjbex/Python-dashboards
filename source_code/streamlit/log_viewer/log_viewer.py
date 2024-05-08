@@ -72,12 +72,14 @@ if __name__ == '__main__':
         )
     with time_col:
         start_time = st.time_input(
-            '',
-            value=datetime.time(0, 0, 0)
+            'start time',
+            value=datetime.time(0, 0, 0),
+            label_visibility='hidden'
         )
         end_time = st.time_input(
-            '',
-            value=datetime.time(23, 59, 59)
+            'end time',
+            value=datetime.time(23, 59, 59),
+            label_visibility='hidden'
         )
 
     # add checkbox to toggle displaying plots
@@ -99,6 +101,7 @@ if __name__ == '__main__':
             figure, axes = plt.subplots()
             df = selection_df[['start_time']].groupby(selection_df.start_time.dt.date).count()
             axes.bar(df.index, df.start_time)
+            axes.set_xticks(axes.get_xticks())
             axes.set_xticklabels(axes.get_xticklabels(),
                                  rotation=45, ha='right')
             st.pyplot(figure)
@@ -109,6 +112,7 @@ if __name__ == '__main__':
             figure, axes = plt.subplots()
             df = selection_df[['user', 'id']].groupby('user').count()
             axes.bar(df.index, df.id)
+            axes.set_xticks(axes.get_xticks())
             axes.set_xticklabels(axes.get_xticklabels(),
                                  rotation=45, ha='right')
             st.pyplot(figure)
