@@ -36,7 +36,9 @@ Total duration: 2 hours.
 
 Slides are available in the
  [GitHub repository](https://github.com/gjbex/Python-dashboards),
-as well as example code and hands-on material.
+as well as example code and hands-on material. The repository contains the
+PowerPoint slide deck, examples for Panel, Streamlit, Dash, Gradio, and
+ipywidgets, and hands-on starter material.
 
 
 ## Target audience
@@ -91,13 +93,28 @@ plotting with NumPy and matplotlib.
 
 ### Software and access requirements
 
-For following along hands-on, you need
-* laptop or desktop with internet access.
-* a system set up so you can connect to an HPC system, an account on an HPC
-  system (e.g., VSC, CECI, ...), compute credits if that is required to run
-  jobs on the HPC system if you want to use an HPC system;
-* a Python environment that can run Jupyter Lab if you want to use your own system;
-* access to Google Colaboratory if you prefer not to install software.
+To follow hands-on on your own system, you need a Python environment that can
+run JupyterLab and the dashboard frameworks used in the examples.
+
+More concretely, you need:
+
+* a laptop or desktop with internet access;
+* a Python environment with JupyterLab, Panel, Streamlit, Dash, Gradio,
+  ipywidgets, NumPy, pandas, matplotlib, Altair, and related packages;
+* the top-level `environment.yml` file if you want to create the portable conda
+  environment;
+* the `python_dashboards_linux64_conda_specs.txt` file if you need the recorded
+  Linux conda package specification;
+* a browser that can open local dashboard applications;
+* access to Google Colaboratory if you prefer not to install software locally.
+
+Some examples start local web applications with commands such as `panel serve`
+or `streamlit run`. If you run these on a remote system, make sure you know how
+to use port forwarding or the web-access mechanism provided by that system.
+
+For the deployment parts of the training, you may also need accounts or access
+for the relevant services, such as GitHub, Streamlit Community Cloud, or Amazon
+EC2. These are not required for simply reading the examples.
 
 
 ## Level of the Material
